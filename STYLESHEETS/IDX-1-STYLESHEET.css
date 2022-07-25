@@ -1,0 +1,161 @@
+body{
+    background: linear-gradient(rgb(59, 44, 60) 2%, black 30%, black 30%, 
+    black 30%, black 7%);
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper{
+    margin: 150px 0px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
+    box-sizing: border-box;
+    background: linear-gradient( rgba(255, 255, 255, 0.233) 5%, black 30%, black 30%, black 30%);
+    padding: 30px;
+}
+
+.hyperlink {
+    text-decoration: none;
+    color: aqua;
+    padding: 0;
+    margin: 0;
+}
+.hyperlink:hover {
+    color: blueviolet;
+}    
+
+/*start navigation area*/
+.navarea{
+	background-color: #4d4d4d;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	display: inline;
+	margin: 0;
+	height: inherit;
+	padding: 0;
+}
+li a{
+	display:inline-block;
+	text-decoration: none;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	height: 40px;
+	padding: 10px 8px 0px 5px;
+	text-align: center;
+	margin: 0px;
+
+}
+.navbar a:hover{
+	background-color: white ;
+	color: black;
+}
+.active{
+    background-color: rgb(97, 4, 4);
+}
+/*end of navigation area*/
+
+
+/* section area*/
+section {
+    margin: 0px 20px 100px 20px;
+    padding: 30px;  
+}
+.flexcontainer{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.section1{
+    background-color: rgb(13, 13, 65);
+    max-width: 65%;
+    border-radius: 25px;
+    height:auto;
+    text-align: left;
+}
+h2{
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+.section3{
+    background-color: rgb(255, 255, 255); 
+    color: #4d4d4d;
+    height: 300px;        
+}
+
+/* end of section area */
+
+
+/* start of footer area*/
+footer{
+	background: #353535;
+	padding: 32px 0;
+	text-align: center;
+	color: #868686;
+	font-size: 12px;
+}
+footer ol{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+footer li{
+	display: inline-block;
+	margin: 1px 0;
+}
+footer a{
+	padding: 6px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #c3c3c3;
+}
+footer li a:hover{
+	color: white;
+}
+.foot{
+	margin: 0 auto;
+	padding: 0 20px 0 20px;
+	max-width: 900px;
+}
+/*end of footer */
+
+
+@media screen and (min-width:400px) and (max-width:900px) {
+    body{
+        background: linear-gradient(rgb(59, 44, 60), black, black, black, rgb(59, 44, 60));
+    }
+    .navarea{
+        background-color: black;
+    }
+    .navbar a:hover{
+        background-color: white;
+        color:black;
+    }
+    .wrapper{
+        border-radius: 15px 15px 0px 0px;
+        background: linear-gradient( rgba(255, 255, 255, 0.249) 5%, black 30%, black 30%, black 30%);
+    }
+    footer li {
+        display:block;
+    }
+    .flexcontainer{
+        display: block;
+    }
+    .section3{
+        background-color: rgb(54, 54, 54);
+        color: white;
+    }
+}

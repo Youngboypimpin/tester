@@ -1,0 +1,1 @@
+alert("HI, This is a prototype for my first multipaged website \nso forgive any errors or bugs \nNevertheless this took me a lot of effort and time so suggestions and support are welcome ^_^ \ncontact information can be found at the bottom of page");
