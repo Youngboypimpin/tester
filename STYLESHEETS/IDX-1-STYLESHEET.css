@@ -133,7 +133,7 @@ footer li a:hover{
 /*end of footer */
 
 
-@media screen and (min-width:400px) and (max-width:768px) {
+@media screen and (min-width:400px) and (max-width:800px) {
     body{
         background: linear-gradient(rgb(59, 44, 60), black, black, black, rgb(59, 44, 60));
     }
@@ -150,9 +150,6 @@ footer li a:hover{
     }
     footer li {
         display:block;
-    }
-    .flexcontainer{
-        display: block;
     }
     .section3{
         background-color: rgb(54, 54, 54);
