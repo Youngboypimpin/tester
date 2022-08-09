@@ -151,6 +151,9 @@ footer li a:hover{
     footer li {
         display:block;
     }
+    .flexcontainer{
+    	flex-direction: column;
+    }
     .section3{
         background-color: rgb(54, 54, 54);
         color: white;
