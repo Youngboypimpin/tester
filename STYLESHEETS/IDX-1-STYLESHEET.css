@@ -133,7 +133,7 @@ footer li a:hover{
 /*end of footer */
 
 
-@media screen and (min-width:400px) and (max-width:900px) {
+@media screen and (min-width:400px) and (max-width:768px) {
     body{
         background: linear-gradient(rgb(59, 44, 60), black, black, black, rgb(59, 44, 60));
     }
